@@ -272,10 +272,10 @@ export default function App() {
     return () => mgr.destroy();
   }, []);
 
-  // Pilot image — try standard production paths
+  // Pilot image — try root first for better compatibility
   const faceImgRef = useRobustImage([
-    "/assets/pilot.png",
     "/pilot.png",
+    "/assets/pilot.png",
   ]);
 
   // Canvas-drawn fallback avatar (drawn once into an offscreen canvas)
