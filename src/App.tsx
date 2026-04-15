@@ -270,7 +270,7 @@ export default function App() {
   // Pilot image — try multiple paths with retry
   const faceImgRef = useRobustImage([
     "/assets/pilot.png",
-    "/public/assets/pilot.png",
+    "/assets/pilot.png",
     "/pilot.png",
   ]);
 
