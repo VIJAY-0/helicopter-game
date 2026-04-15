@@ -1,0 +1,6 @@
+{
+  "name": "Face Helicopter",
+  "description": "A fun, physics-based helicopter game where you can fly with your own face! Upload a photo, hold to fly, and avoid the obstacles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
